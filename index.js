@@ -21,20 +21,18 @@ function findString(theArray,theString){
 */
 function getArrayIndex(theArray,theString){
     var  result = 0;   
-     
+      result = -1;
     theArray.forEach(function(element,index){
-       
+      
        if (element === theString) {
           result = index;
         }
     
     });
     
-    if (result > 0) {
+    if (result >= 0) {
        return result;
     }
-    else {
-         return -1;
-    }
-   
+     
 }
+
