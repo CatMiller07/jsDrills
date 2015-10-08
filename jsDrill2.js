@@ -11,3 +11,11 @@ function concatArr(theArray){
     });
     return str;
 }
+
+/*
+*/
+function appendToElement(elem,num){
+    for (var i=0; i < num; i++){
+        $(elem).append("<h1>Title "+ i +"</h>");
+    }
+}

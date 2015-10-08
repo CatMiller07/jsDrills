@@ -21,7 +21,7 @@ function findString(theArray,theString){
 */
 function getArrayIndex(theArray,theString){
     var  result = 0;   
-      result = -1;
+    result = -1;
     theArray.forEach(function(element,index){
       
        if (element === theString) {
@@ -30,9 +30,8 @@ function getArrayIndex(theArray,theString){
     
     });
     
-    if (result >= 0) {
-       return result;
-    }
+    
+    return result;
      
 }
 
